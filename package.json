@@ -1,0 +1,21 @@
+{
+  "name": "healthcare-appointments-security",
+  "version": "1.0.0",
+  "description": "Small healthcare appointment web app for SSDF PO.3 secure toolchain demo.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "healthcare",
+    "appointments",
+    "security",
+    "ssdf"
+  ],
+  "author": "Noah Stacy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

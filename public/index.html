@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Healthcare Appointment Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <p class="eyebrow">Secure Software Demo</p>
+      <h1>Healthcare Appointment Request</h1>
+      <p class="intro">
+        This is a small demo app for the SSDF PO.3 toolchain setup.
+        It uses mock appointment data only.
+      </p>
+
+      <form id="appointmentForm" class="form">
+        <label for="patientName">Patient name</label>
+        <input id="patientName" name="patientName" type="text" maxlength="80" required>
+
+        <label for="appointmentType">Appointment type</label>
+        <select id="appointmentType" name="appointmentType" required>
+          <option value="">Choose one</option>
+          <option value="Primary Care">Primary Care</option>
+          <option value="Dental">Dental</option>
+          <option value="Vision">Vision</option>
+          <option value="Nutrition">Nutrition</option>
+          <option value="Mental Health">Mental Health</option>
+        </select>
+
+        <label for="requestedDate">Requested date</label>
+        <input id="requestedDate" name="requestedDate" type="date" required>
+
+        <button type="submit">Request appointment</button>
+      </form>
+
+      <div id="message" class="message" aria-live="polite"></div>
+    </section>
+
+    <section class="card">
+      <h2>Current appointment requests</h2>
+      <ul id="appointmentList" class="appointments"></ul>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
