@@ -1,0 +1,12 @@
+# Simulated security ownership for the healthcare appointment app
+
+.github/workflows/* @noahmvc
+.github/pull_request_template.md @noahmvc
+.github/CODEOWNERS @noahmvc
+
+package.json @noahmvc
+package-lock.json @noahmvc
+
+src/* @noahmvc
+public/* @noahmvc
+test/* @noahmvc
