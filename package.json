@@ -17,5 +17,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
